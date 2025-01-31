@@ -1,0 +1,7 @@
+html[data-theme=dark], html[data-theme=light] {
+    --pst-color-secondary: #81D5FA;
+}
+
+.prev-next-area a p.prev-next-title {
+    font-size: 0em;
+}
