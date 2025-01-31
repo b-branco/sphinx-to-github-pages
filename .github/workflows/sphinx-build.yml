@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  build:
+    name: Sphinx Pages Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: b-branco/personal-website@main
+        id: sphinx-pages
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          create_readme: false
