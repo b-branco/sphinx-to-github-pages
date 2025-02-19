@@ -42,7 +42,7 @@ jobs:
     # ===============================
     - name: Commit documentation changes
       run: |
-        git clone https://github.com/b-branco/personal-website.git --branch gh-pages --single-branch gh-pages
+        git clone https://github.com/b-branco/sphinx-to-github-pages.git --branch gh-pages --single-branch gh-pages
         cp -r docs/_build/* gh-pages/
         cd gh-pages
         touch .nojekyll
